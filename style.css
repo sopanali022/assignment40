@@ -1,0 +1,146 @@
+/* Default css */
+body,h1,h2,h3,h4,h5,h6{
+   font-family: 'Work Sans', sans-serif;
+}
+img{
+   max-width: 100%;
+}
+/* Header section */
+.sopan-header .navbar-brand {
+	font-size: 20px;
+	font-weight: 600;
+}
+.sopan-header span {
+	display: inline-block;
+	font-size: 25px;
+	color: #6278df;
+	height: 43px;
+	width: 34px;
+	text-align: center;
+	position: relative;
+	top: 3px;
+}
+.sopan-menu .nav-link {
+   padding-left: 15px !important;
+   padding-right: 15px !important;
+}
+/* slider section */
+.slider-section{
+   background: #f9f9ff;
+}
+.slider-content{}
+.slider-section h1 {
+	font-size: 48px;
+	font-weight: 500;
+}
+.slider-section p {
+	font-size: 18px;
+}
+.Default-botton{
+	border-color: #8492ff;
+}
+.Default-botton a{
+	border-color: #8492ff;
+   font-weight: bold;
+	font-size: 18px;
+   background: #8492ff;
+   box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);  
+}
+/* slider bottom section */
+.slider-bottom{
+	
+}
+.c-section-content{
+	color: #3b4653;
+
+}
+/* number section */
+.Number-counter{
+	background:#8490ff;
+}
+
+/* pricing-section */
+.pricing-table{
+   background: #f7f9ff;
+
+}
+.pricing-item {
+	background: #fff;
+	padding: 20px 50px 50px 50px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	border-radius: 5px;
+}
+.pricing-item h2 {
+	background: #f7f9ff;
+	width: 110px;
+	height: 105px;
+	margin: auto;
+	/* text-align: center; */
+	line-height: 105px;
+}
+.pricing-item h4 {
+	font-weight: 400;
+}
+.pricing-item h5{}
+.pricing-item ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 40px;
+}
+.pricing-item ul li {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: #777;
+}
+.pricing-button{
+}
+.pricing-button a {
+	color: #6278df;
+	border-width: 2px;
+	border-color: #6278df;
+	padding: 14px 30px;
+	font-size: 20px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	/* box-shadow: 4px 4px 20px 0 rgba(0,0,0,.1); */
+}
+
+/*  About Section  */
+.about-item {
+    margin-top: 90px;
+}
+.about-item .card{}
+.about-item .card img {
+	width: 130px;
+	height: auto;
+	margin-top: -82px;
+	margin-left: 15px;
+}
+
+/*  Content Us CSS  */
+.content-form-div .card{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+	padding: 40px;
+}
+
+.c-section-content{}
+.c-section-content h2 {
+	font-size: 30px;
+	font-weight: 400;
+}
+.c-section-content h5 {
+	font-size: 22px;
+	font-weight: 400;
+	
+}
+/* responsive start */
+@media all and (max-width: 992px){
+	.pricing-item {
+		margin-bottom: 15px;
+	}
+
+}
+
+
+
